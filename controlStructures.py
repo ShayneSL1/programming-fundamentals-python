@@ -16,3 +16,11 @@ elif instanceRunning == "Stopped":
     print("The EC2 is stopped.")
 else:
     print("The EC2 is in an unexpected state")
+
+public_access_block = False
+
+# Write the if statement
+if public_access_block == True:
+    print('The S3 Bucket is secure.')
+else:
+    print('The S3 Bucket is not secure.')

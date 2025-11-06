@@ -9,3 +9,6 @@ ec2Instance = {
     "State": "running",
     "PublicIpAddress": "203.0.111.2"
 }
+
+instanceType = ec2Instance["InstanceId"]
+print(instanceType)

@@ -25,15 +25,19 @@ else:
     print("10.0.0.4 is not in the allowed list")
  """
 
-#Slicing a List
-#First two availability zones
-firstTwoAzs = availabilityZones[:2]
-print("First two AZs:",firstTwoAzs)
+# #Slicing a List
+# #First two availability zones
+# firstTwoAzs = availabilityZones[:2]
+# print("First two AZs:",firstTwoAzs)
 
-#Last availability zone
-lastAZ = availabilityZones[2:]
-print(lastAZ)
+# #Last availability zone
+# lastAZ = availabilityZones[2:]
+# print(lastAZ)
 
-#.sort method sorts by ascending order
-ipAddresses.sort()
-print(ipAddresses)
+# #.sort method sorts by ascending order
+# ipAddresses.sort()
+# print(ipAddresses)
+
+#Finding the length of a list
+numberOfIps = len(ipAddresses)
+print(numberOfIps)

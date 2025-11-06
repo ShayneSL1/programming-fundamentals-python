@@ -24,6 +24,7 @@ print(ec2Instance)
 #Removing a Key-Value Pair
 #Using pop() method
 rmInstanceType = ec2Instance.pop("InstanceType")
+print(f"Removed instance type: {rmInstanceType}")
 print(ec2Instance)
 
 #Del method

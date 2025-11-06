@@ -7,7 +7,7 @@ ipAddresses = ['10.0.0.1','10.0.0.2','10.0.0.3','10.0.0.4']
 #List of AZs in a region
 availabilityZones = ['us-east-1a','us-east-2b','us-east-3c']
 
-#Print the lists
+""" #Print the lists
 print(f"EC2 instances to delete: {instanceIds}")
 # print(f"IP Addresses: {ipAddresses}")
 # print(f"Number of availability zones: {availabilityZones}")
@@ -21,4 +21,9 @@ if "10.0.0.4" in ipAddresses:
     print("Yes 10.0.0.4 is allowed")
 else:
     print("10.0.0.4 is not in the allowed list")
+ """
 
+#Slicing a List
+#First two availability zones
+firstTwoAzs = availabilityZones[:2]
+print("First two AZs:",firstTwoAzs)

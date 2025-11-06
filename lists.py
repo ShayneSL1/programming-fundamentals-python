@@ -27,3 +27,6 @@ else:
 #First two availability zones
 firstTwoAzs = availabilityZones[:2]
 print("First two AZs:",firstTwoAzs)
+
+lastAZ = availabilityZones[2:]
+print(lastAZ)

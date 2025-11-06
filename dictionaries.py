@@ -15,3 +15,8 @@ print(instanceType)
 
 publicIp = ec2Instance.get("PublicIpAddress", "No Public IP Address here.")
 print(publicIp)
+
+#Adding a new Key-Value pair
+ec2Instance["AvailabilityZone"] = "us-east-2"
+ec2Instance["State"] = "stopped"
+print(ec2Instance)

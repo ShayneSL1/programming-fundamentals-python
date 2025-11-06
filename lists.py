@@ -1,3 +1,5 @@
+#use ctrl + / to add # to multiple lines
+
 #List of EC2 Instance
 instanceIds = ['i-1234','i-5678','i-9012']
 

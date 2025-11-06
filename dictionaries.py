@@ -20,3 +20,12 @@ print(publicIp)
 ec2Instance["AvailabilityZone"] = "us-east-2"
 ec2Instance["State"] = "stopped"
 print(ec2Instance)
+
+#Removing a Key-Value Pair
+#Using pop() method
+rmInstanceType = ec2Instance.pop("InstanceType")
+print(ec2Instance)
+
+#Del method
+del ec2Instance["AvailabilityZone"]
+print(ec2Instance)

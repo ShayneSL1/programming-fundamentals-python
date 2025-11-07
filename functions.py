@@ -5,7 +5,7 @@ import random
 return result #optional """
 
 def generateBucketName(projectName):
-    randomSuffix = random.int(1,9999)
+    randomSuffix = random.randint(1,9999)
     bucketName = f"{projectName}-bucket-{randomSuffix}"
     return bucketName
 
